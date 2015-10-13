@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="tuesdayApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Company Generator</title>
+    <script src="/assets/scripts/angular/angular.min.js"></script>
+    <script src="/assets/scripts/angular-route/angular-route.min.js"></script>
+    <script src="/assets/client/app.js"></script>
+    <script src="/assets/client/AboutController.js"></script>
+    <script src="/assets/client/ContactController.js"></script>
+    <script src="/assets/client/HomeController.js"></script>
+    <base href="/">
+</head>
+<body>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+
+    <div id="main">
+        <ng-view>
+
+
+        </ng-view>
+    </div>
+
+    <!--<div ng-controller="MainController">-->
+        <!--<h1>Home</h1>-->
+        <!--{{message}}-->
+
+    <!--</div>-->
+
+</body>
+</html>
